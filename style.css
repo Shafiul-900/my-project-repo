@@ -3,7 +3,21 @@
     padding: 0;
 }
 .section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: 100vh;
     background-color: lawngreen;
+}
+.sec {
+    width: 50%;
+    margin-right: 20px;
+    height: 30vh;
+    background-color: red;
+}
+.sec2 {
+    width: 50%;
+    height: 30vh;
+    background-color: red;
 }
